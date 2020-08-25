@@ -129,7 +129,7 @@ html,body{
   top: 100%;
   left: 0;
   right: 0;
-  height: 2100px;
+  height: 2200px;
   z-index: 1;
 }
 @media (max-width:600px){
@@ -236,7 +236,7 @@ body {
 
 .section h1 {
   padding-top: 1em;
-  font-family: 'CoreCircus', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 5em;
   text-align: center;
   line-height: 1;
@@ -247,7 +247,7 @@ body {
           transform: translate(-50%, -50%);
   position: absolute;
   color: #5c5c5c;
-  letter-spacing: -.5rem;
+  letter-spacing: .3em;
   z-index: -1;
 }
 .section h1:before {
@@ -307,3 +307,5 @@ body {
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot");
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf") format("truetype");
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
