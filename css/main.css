@@ -71,6 +71,10 @@ html,body{
   }
 }
 
+.column img{
+  height: 20em;
+}
+
 @media (max-width:500px) {
 
   .logo{
@@ -84,7 +88,15 @@ html,body{
     width: 10em;
     height: 10em;
   }
+.column img{
+    height: 10em;
+  }
+
+  .card p{
+    display: none;
+  }
 }
+
 * {
   box-sizing: border-box;
 }
@@ -235,13 +247,13 @@ body {
 
 
 .section h1 {
-  padding-top: 1em;
+
   font-family: 'Source Code Pro', monospace;
   font-size: 5em;
   text-align: center;
   line-height: 1;
   margin: 0;
-  top: 50%;
+  top: 5%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -249,6 +261,8 @@ body {
   color: #5c5c5c;
   letter-spacing: .3em;
   z-index: -1;
+  
+
 }
 .section h1:before {
   padding-top: 2em;
