@@ -259,18 +259,18 @@ body {
 .section h1 {
 
   font-family: 'Source Code Pro', monospace;
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
   line-height: 1;
   margin: 0;
-  top: 5%;
+  top: 20%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: absolute;
   color: #5c5c5c;
   letter-spacing: .3em;
-  z-index: -1;
+  z-index: 1;
   
 
 }
@@ -334,6 +334,60 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+
+
+.name{
+  padding: 2em;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+      -webkit-box-pack: justify;
+              justify-content: center;
+              height: 10em;
+              padding: 2em;
+  background:#111111;
+              
+  
+  
+}
+
+
+.container a {
+  font-size: 1.5em;
+  margin: .5em;
+  padding: 1em;
+  
+}
+
+
+.container a {
+  background: #111111;
+  border-radius: 10px;
+  box-shadow: -6px -6px 16px rgb(22, 22, 22),
+              6px 6px 16px #000000;
+}
+
+.container a:active {
+  box-shadow: inset -6px -6px 16px rgb(19, 19, 19),
+              inset 6px 6px 16px #000000;
+              color: #44ffff;
+}
+
+.twitter {
+  color: #c09d00;
+}
+
+.github,
+.codepen {
+  color: #c09d00;
+}
+
+.name h1{
+  display: flex;
+  justify-content: center;
+}
 
 @media(max-width:500px){
   .section h1{
