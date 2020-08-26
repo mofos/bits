@@ -95,6 +95,16 @@ html,body{
   .card p{
     display: none;
   }
+
+  .section h1{
+    font-size: 2em;
+    top:0%;
+  }
+
+  .row{
+    padding-top: 6em;
+    
+  }
 }
 
 * {
@@ -147,7 +157,7 @@ html,body{
 @media (max-width:600px){
   .parallax__cover {
  
-    height: 6600px;
+    height: 1900px;
   }
     
   .parallax__layer img {
@@ -323,3 +333,16 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+@media(max-width:500px){
+  .section h1{
+    font-size: 2em;
+    top:3.5em;
+  }
+
+  .row{
+    padding-top: 6em;
+    
+  }
+}
