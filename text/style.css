@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+body {
+  overflow: hidden;
+}
+
+.background {
+  background: -webkit-gradient(linear, left top, right top, from(#1d1b18), to(#ffa200));
+  background: linear-gradient(90deg, #7e7e7e, #c7b8a2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.overlay {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(238, 226, 202, 0.1)), to(rgba(199, 184, 162, 0))), rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgba(238, 226, 202, 0.1), rgba(199, 184, 162, 0)), rgba(0, 0, 0, 0.884);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.container {
+  color: #332c1a;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  width: 60em;
+  margin-left: -30em;
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+  -webkit-transform: perspective(800px) rotateX(40deg) rotateY(-5deg) rotateZ(5deg);
+          transform: perspective(800px) rotateX(40deg) rotateY(-5deg) rotateZ(5deg);
+  
+  position: absolute;
+  left: 50%;
+}
+
+.col {
+  position: relative;
+  width: 49%;
+  height: 40em;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 2em;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.text-backside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 2em;
+  opacity: 0.05;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  text-shadow: 0 0 6px #000000;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 50% 50vh;
+          transform-origin: 50% 50vh;
+}
+
+.content {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  width: 80%;
+  text-align: center;
+  margin-top: -100px;
+  font-size: 20px;
+  font-weight: 0;
+  left: 10%;
+}
+
+.content h1{
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.content h2{
+  color: #d49f44;
+}
+
+.content h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  color: #cecece;
+  width: 50%;
+  margin-left: 17em;
+  padding-top: 4em;
+}
+
+
+
+.twitter{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  text-align: left;
+  padding-top: 2em;
+}
+
+.twitter p{
+  padding-top: 2em;
+  color: rgb(139, 185, 223);
+  padding: .7em;
+}
+
+@media(max-width:500px){
+  .twitter{
+    display: block;
+  }
+
+  .twitter p{
+    font-size:.4em;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(88%, transparent), color-stop(88%, white), color-stop(92%, white), color-stop(92%, transparent));
+  background: linear-gradient(transparent 88%, white 88%, white 92%, transparent 92%);
+}
+
+.disclaimer {
+  font-size: 15px;
+}
