@@ -133,6 +133,11 @@ body {
   .twitter p{
     font-size:.4em;
   }
+  .content h3{
+    width: 100%;
+    margin-left: 0em;
+    padding-top: 1em;
+  }
 }
 
 a {
