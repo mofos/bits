@@ -276,21 +276,7 @@
   cursor: pointer;
 }
         /* Responsive columns */
-        @media screen and (max-width: 500px) {
-          .column {
-            width: 50%;
-            display: block;
-            
-          }
-       .card h3{
-         font-size: 1em;
-       }
-
-  .row{
-    padding-top: 6em;
-    
-  }
-        }
+       
         
         /* Style the counter cards */
         .card {
@@ -300,6 +286,7 @@
           background-color: #141414;
           color: azure;
           border-radius: 2em;
+          height: 800px;
         }
         .card:hover {
   box-shadow: 0 8px 16px 0 rgba(129, 129, 129, 0.459);
@@ -321,6 +308,33 @@
           font-size: medium;
           font-weight: 2000;
           color: rgb(0, 175, 102);
+        }
+        @media screen and (max-width: 500px) {
+          .column {
+            width: 50%;
+            display: block;
+            
+          }
+          .card{
+            height: 300px;
+          }
+       .card h3{
+         font-size: .95em;
+       }
+
+  .row{
+    padding-top: 6em;
+    
+  }
+  .column1{
+          
+         
+          width: 33.33%;
+          padding-top: .5em;
+          text-align: center;
+          font-size: 20px;
+          
+         
         }
         </style>
 

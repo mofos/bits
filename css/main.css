@@ -91,7 +91,9 @@ html,body{
 .column img{
     height: 10em;
   }
-
+  .card{
+    height: 200px;
+  }
   .card p{
     display: none;
   }
@@ -401,6 +403,13 @@ body {
     padding-top: 6em;
     
   }
+  .container {
+    width: 90%;
+                
+    
+    
+  }
+  
 }
 
 iframe{
